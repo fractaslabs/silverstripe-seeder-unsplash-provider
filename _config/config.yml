@@ -1,0 +1,8 @@
+---
+Name: unsplash-seeder
+After: 'silverstripe-seeder/*'
+---
+
+Seeder:
+  providers:
+    - Fractas\Seeder\UnsplashImageProvider
