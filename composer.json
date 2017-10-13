@@ -9,7 +9,6 @@
     "issues": "https://github.com/fractaslabs/silverstripe-seeder-unsplash-provider/issues"
   },
   "require": {
-    "silverstripe/cms": "~4.0",
     "silverstripe/framework": "~4.0",
     "littlegiant/silverstripe-seeder": "^2.0"
   },
