@@ -5,8 +5,7 @@ This is a [SilverStripe Seeder](https://github.com/littlegiant/silverstripe-seed
 
 
 ## Requirements
- * SilverStripe Framework 3.1+
- * SilverStripe CMS 3.1+
+ * SilverStripe Framework 4+
  * SilverStripe Seeder 2.0+
 
 
