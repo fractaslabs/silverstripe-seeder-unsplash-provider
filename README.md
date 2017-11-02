@@ -1,4 +1,6 @@
 # SilverStripe Seeder Unsplash provider
+[![Build Status](https://scrutinizer-ci.com/g/fractaslabs/silverstripe-seeder-unsplash-provider/badges/build.png?b=3.0)](https://scrutinizer-ci.com/g/fractaslabs/silverstripe-seeder-unsplash-provider/build-status/3.0)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/fractaslabs/silverstripe-seeder-unsplash-provider/badges/quality-score.png?b=3.0)](https://scrutinizer-ci.com/g/fractaslabs/silverstripe-seeder-unsplash-provider/?branch=3.0)
 
 ## Overview
 This is a [SilverStripe Seeder](https://github.com/littlegiant/silverstripe-seeder/) Unsplash provider which grabs "random" beautiful photos from Unsplash API.
