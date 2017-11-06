@@ -1,5 +1,5 @@
 {
-  "name": "fractas/silverstripe-seeder-unsplash-provider",
+  "name": "fractaslabs/silverstripe-seeder-unsplash-provider",
   "description": "An Unsplash image provider for SilverStripe Seeder module",
   "type": "silverstripe-module",
   "homepage": "https://github.com/fractaslabs/silverstripe-seeder-unsplash-provider",
