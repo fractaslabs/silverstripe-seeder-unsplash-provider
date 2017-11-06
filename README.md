@@ -1,18 +1,22 @@
-# SilverStripe Seeder Unsplash provider
+# SilverStripe Seeder Unsplash provider [WIP]
+[![Latest Stable Version](https://poser.pugx.org/fractaslabs/silverstripe-seeder-unsplash-provider/v/stable)](https://packagist.org/packages/fractaslabs/silverstripe-seeder-unsplash-provider)
+[![Latest Unstable Version](https://poser.pugx.org/fractaslabs/silverstripe-seeder-unsplash-provider/v/unstable)](https://packagist.org/packages/fractaslabs/silverstripe-seeder-unsplash-provider)
+[![License](https://poser.pugx.org/fractaslabs/silverstripe-seeder-unsplash-provider/license)](https://packagist.org/packages/fractaslabs/silverstripe-seeder-unsplash-provider)
 
 ## Overview
 This is a [SilverStripe Seeder](https://github.com/littlegiant/silverstripe-seeder/) Unsplash provider which grabs "random" beautiful photos from Unsplash API.
 
+*Note: this branch is under-development* 
 
 ## Requirements
  * SilverStripe Framework 4+
- * SilverStripe Seeder 2.0+
+ * SilverStripe Seeder
 
 
 ## Installation
   * Install via Composer
  ```
- composer require fractas/silverstripe-seeder-unsplash-provider
+ composer require fractaslabs/silverstripe-seeder-unsplash-provider
  ```
   * Run dev/build
   * Add to your configuration:
