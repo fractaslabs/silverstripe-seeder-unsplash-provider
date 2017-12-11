@@ -1,15 +1,25 @@
 {
-  "name": "fractaslabs/silverstripe-seeder-unsplash-provider",
+  "name": "fractas/seeder-unsplash-provider",
   "description": "An Unsplash image provider for SilverStripe Seeder module",
-  "type": "silverstripe-module",
+  "type": "silverstripe-vendormodule",
   "homepage": "https://github.com/fractaslabs/silverstripe-seeder-unsplash-provider",
   "keywords": ["silverstripe", "developer tool", "seeder", "faker", "seed", "unsplash"],
   "license": "BSD-3-Clause",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "support": {
     "issues": "https://github.com/fractaslabs/silverstripe-seeder-unsplash-provider/issues"
   },
+  "authors": [{
+    "name": "Milan Jelicanin",
+    "email": "milan.jelicanin@fractas.com"
+  }, {
+    "name": "Petar Simic",
+    "email": "petar.simic@fractas.com"
+  }],
   "require": {
-    "silverstripe/framework": "~4.0",
+    "silverstripe/framework": "^4.0",
+    "silverstripe/vendor-plugin": "^1.0"
     "littlegiant/silverstripe-seeder": "^2.0"
   },
   "autoload": {
@@ -18,6 +28,8 @@
     }
   },
   "extra": {
-    "installer-name": "seeder-unsplash-provider"
-  }
+     "branch-alias": {
+        "dev-master": "2.x-dev"
+     }
+   }
 }
