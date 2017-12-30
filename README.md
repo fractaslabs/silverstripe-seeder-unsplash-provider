@@ -1,8 +1,8 @@
 # SilverStripe Seeder Unsplash provider [WIP]
-[![Latest Stable Version](https://poser.pugx.org/fractaslabs/silverstripe-seeder-unsplash-provider/v/stable)](https://packagist.org/packages/fractaslabs/silverstripe-seeder-unsplash-provider)
-[![Latest Unstable Version](https://poser.pugx.org/fractaslabs/silverstripe-seeder-unsplash-provider/v/unstable)](https://packagist.org/packages/fractaslabs/silverstripe-seeder-unsplash-provider)
-[![Total Downloads](https://poser.pugx.org/fractaslabs/silverstripe-seeder-unsplash-provider/downloads)](https://packagist.org/packages/fractaslabs/silverstripe-seeder-unsplash-provider)
-[![License](https://poser.pugx.org/fractaslabs/silverstripe-seeder-unsplash-provider/license)](https://packagist.org/packages/fractaslabs/silverstripe-seeder-unsplash-provider)
+[![Latest Stable Version](https://poser.pugx.org/fractas/silverstripe-seeder-unsplash-provider/v/stable)](https://packagist.org/packages/fractas/silverstripe-seeder-unsplash-provider)
+[![Latest Unstable Version](https://poser.pugx.org/fractas/silverstripe-seeder-unsplash-provider/v/unstable)](https://packagist.org/packages/fractas/silverstripe-seeder-unsplash-provider)
+[![Total Downloads](https://poser.pugx.org/fractas/silverstripe-seeder-unsplash-provider/downloads)](https://packagist.org/packages/fractas/silverstripe-seeder-unsplash-provider)
+[![License](https://poser.pugx.org/fractas/silverstripe-seeder-unsplash-provider/license)](https://packagist.org/packages/fractas/silverstripe-seeder-unsplash-provider)
 
 ## Overview
 This is a [SilverStripe Seeder](https://github.com/littlegiant/silverstripe-seeder/) Unsplash provider which grabs "random" beautiful photos from Unsplash API.
@@ -16,27 +16,27 @@ This is a [SilverStripe Seeder](https://github.com/littlegiant/silverstripe-seed
 
 ## Installation
   * Install via Composer
-  ```
-  composer require fractaslabs/silverstripe-seeder-unsplash-provider
-  ```
+   ```
+   composer require fractas/seeder-unsplash-provider
+   ```
   * Run dev/build
   * Add to your configuration:
-  ```yaml
-  ---
-  Name: seeder-config
-  ---
-  Seeder\Seeder:
-    create:
-      Page:
-        count: 100
-          fields:
-            Image: 'unsplashimage(1024,768)'
-  ```
+   ```yaml
+   ---
+   Name: seeder-config
+   ---
+   Seeder\Seeder:
+     create:
+       Page:
+         count: 100
+           fields:
+             Image: 'unsplashimage(1024,768)'
+   ```
   * Change to project root and run
-  ``` bash
-  (unix)      $ framework/sake seed flush=1
-  (windows)   > php framework/cli-script.php seed flush=1
-  ```
+   ``` bash
+   (unix)      $ framework/sake seed flush=1
+   (windows)   > php framework/cli-script.php seed flush=1
+   ```
 
 
  ## Bugtracker
