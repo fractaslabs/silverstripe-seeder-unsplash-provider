@@ -19,8 +19,7 @@ This is a [SilverStripe Seeder](https://github.com/littlegiant/silverstripe-seed
    ```
    composer require fractas/seeder-unsplash-provider
    ```
-  * Run dev/build
-  * Add to your configuration:
+  * Add to your configuration: **mysite/_config/seeder.yml**
    ```yaml
    ---
    Name: seeder-config
@@ -32,6 +31,7 @@ This is a [SilverStripe Seeder](https://github.com/littlegiant/silverstripe-seed
            fields:
              Image: 'unsplashimage(1024,768)'
    ```
+  * Run dev/build?flush=1
   * Change to project root and run
    ``` bash
    (unix)      $ framework/sake seed flush=1
